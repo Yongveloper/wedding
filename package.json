@@ -2,9 +2,8 @@
   "name": "part1_wedding",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "yarn@4.3.1+sha224.934d21773e22af4b69a7032a2d3b4cb38c1f7c019624777cc9916b23",
+  "packageManager": "yarn@4.5.3",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
@@ -40,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/testing-library__jest-dom": "^6.0.0"
   }
 }
