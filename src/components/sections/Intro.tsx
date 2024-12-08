@@ -22,13 +22,16 @@ function Intro({
   message: string;
 }) {
   return (
-    <Section className={cx('container')}>
-      <div className={cx('wrap-persons')}>
-        <span>{groomName}</span>
-        <IconHeart className={cx('ico-heart')} />
-        <span>{brideName}</span>
-      </div>
-
+    <Section
+      className={cx('container')}
+      title={
+        <div className={cx('wrap-persons')}>
+          <span>{groomName}</span>
+          <IconHeart className={cx('ico-heart')} />
+          <span>{brideName}</span>
+        </div>
+      }
+    >
       <div className={cx('wrap-location')}>
         <span>
           {format(parseISO(date), 'yyyy년 M월 d일 eeee', { locale: ko })}
