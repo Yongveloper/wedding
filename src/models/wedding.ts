@@ -29,6 +29,7 @@ export interface ILocation {
 export interface IAccount {
   bankName: string;
   accountNumber: string;
+  kakaopayLink?: string;
 }
 
 export interface IPerson {
