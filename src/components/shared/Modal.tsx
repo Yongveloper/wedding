@@ -23,6 +23,8 @@ function Modal({
   onLeftButtonClick,
   onRightButtonClick,
 }: IModalProps) {
+  console.log('@@open', open);
+
   if (!open) {
     return null;
   }
